@@ -21,6 +21,7 @@ module testbench_constraints;
     
     initial begin
         c = new;
+        
         for (int i = 0; i < 20; i++) begin
             c.randomize();
             $display(
